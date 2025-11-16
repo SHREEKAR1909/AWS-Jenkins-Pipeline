@@ -41,11 +41,6 @@ Auto Scaling group—Contains EC2 instances running Apache and the CodeDeploy ag
 Auto Scaling launch configurations—For use by the Auto Scaling group.
 Security groups—For the Jenkins server, the load balancer, and the CodeDeploy EC2 instance
 
-![image](https://user-images.githubusercontent.com/48589838/89985330-87d14500-dc98-11ea-9964-c1211d0c8a03.png)
-
-![image](https://user-images.githubusercontent.com/48589838/89985319-83a52780-dc98-11ea-8442-3e8e7eb3e403.png)
-
-
 ### Access and unlock your Jenkins server
 
 Copy the JenkinsServerDNSName value from the Outputs tab of the CloudFormation stack, and paste it into your browser.
